@@ -1,0 +1,96 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.test {
+    padding-top: 10%;
+    margin-left: 10%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
+.compteur {
+    color: #03f417;
+    font-size: 8px;
+    font-family: 'Genos', sans-serif;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    cursor: pointer;
+    background-color: transparent;
+    font-family: 'Genos', sans-serif;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.right_container {
+    display: flex;
+    font-family: 'Genos', sans-serif;
+    color: #03f417;
+    text-align: center;
+    font-size: 20px;
+}
+
+.shopr {
+    margin-right: 2%;
+
+}
+
+.shopl {
+    margin-left: 2%;
+}
+
+.left_container {
+    display: flex;
+    font-family: 'Genos', sans-serif;
+    color: #03f417;
+    text-align: center;
+    font-size: 20px;
+
+
+}
+
+.button_s {
+    background-color: transparent;
+    border-color: greenyellow;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 1rem 1.6rem;
+}
