@@ -7,7 +7,7 @@ Ce jeu est un clicker game dont le thême est la blockchain. A chaque bloc ajout
 
 Récupérer le projet : 
 ```
-git clone git@github.com:emmanuelanicet/MyClickerGame.git
+git clone https://github.com/klibato/MyClickerGame.git
 ```
 
 Ensuite dans votre dossier ouvrez le fichier `html/index.html`. 
